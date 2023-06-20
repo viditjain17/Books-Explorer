@@ -15,6 +15,12 @@ The Book Explorer App is a React-based web application that allows users to sear
 
 ->Open Library API: An API provided by the Open Library project, which allows developers to access book-related information. The app integrates with the Open Library API to fetch book details based on user search keywords.
 
+## Product
+![img](https://github.com/viditjain17/Books-Explorer/blob/master/src/images/Screenshot%202023-06-21%20003057.png)
+![img](https://github.com/viditjain17/Books-Explorer/blob/master/src/images/Screenshot%202023-06-21%20003111.png)
+![img](https://github.com/viditjain17/Books-Explorer/blob/master/src/images/Screenshot%202023-06-21%20003146.png)
+![img](https://github.com/viditjain17/Books-Explorer/blob/master/src/images/Screenshot%202023-06-21%20003156.png)
+
 
 
 
@@ -49,10 +55,6 @@ Repeat or Refine Search: If you want to search for another book, simply go back 
 Responsive Design: The app is designed to be responsive, allowing you to use it on various devices, including desktops, laptops, tablets, and mobile devices.
 
 Please note that in order to use the Book Explorer App, you will need an internet connection to fetch book details from the Open Library API. Also, ensure that your API key for the Open Library API is properly configured in the app for seamless integration.
-
-## Product
-
-
 
 
 ## Contributing
