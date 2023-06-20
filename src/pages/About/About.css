@@ -1,0 +1,52 @@
+.about {
+    padding: 3rem 0;
+    background-color: black;
+    color: white;
+  }
+  h2{
+    color: rgb(234, 176, 70);
+  }
+  .about-content {
+    gap: 4rem;
+    color: wheat;
+  }
+  
+  .about-title {
+    margin: 1rem 0;
+    /* color: rgb(227, 177, 85); */
+  }
+  
+  .about-img img {
+    max-width: 520px;
+    height: 500px;
+    filter: grayscale(100%) brightness(70%);
+  }
+  
+  .about-text p {
+    margin: 1.8rem 0;
+    opacity: 0.8;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .about-content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .abt{
+        /* color: aliceblue; */
+        font-family: monospace;
+        font-size: xx-large;
+    }
+  
+    .about-title {
+      margin-top: 0;
+    }
+  
+    .about-img img {
+      margin-left: 0;
+      filter: grayscale(10%) brightness(70%);
+      -webkit-filter: grayscale(10%) brightness(70%);
+      
+}
+  }
+  

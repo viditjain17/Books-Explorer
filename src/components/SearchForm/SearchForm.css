@@ -1,0 +1,50 @@
+.search-form{
+    width: 100%;
+    max-width: 1000px;
+    
+}
+text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-control{
+    /* background-color: wheat; */
+    background-color: rgb(239, 205, 141);
+
+    color: black;
+}
+.search-form-elem{
+    padding: 1.4rem 2.8rem;
+    border-radius: 3.8rem;
+    color: wheat;
+    background-color: rgb(239, 205, 141);
+
+}
+.search-form-elem .form-control{
+    font-size: 2rem;
+    padding: 0.6rem;
+}
+.search-form-elem .form-control::placeholder{
+    opacity: 0.9;
+}
+.icon {
+    color: black; /* Default color */
+    transition: color 0.3s; /* Smooth transition */
+  }
+  
+  .icon:hover {
+    color: red; /* Color on hover */
+    animation: iconAnimation 0.5s ease-in-out; /* Animation on hover */
+  }
+  
+  @keyframes iconAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
